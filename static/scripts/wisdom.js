@@ -56,6 +56,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
   if(themeid == "bg") {
       themeEle.href = "/css/themes/blue-green.css";
   }
+  if(themeId == "gaybow") {
+      themeEle.href = "/css/themes/gaybow.css";
+  }
   if(themeid == "cr") {
       themeEle.href = "/css/themes/cherryRed.css";
   }
