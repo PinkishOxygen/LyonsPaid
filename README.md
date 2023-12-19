@@ -1,2 +1,1 @@
-# InterStellarPaid
-Official Paid InterStellar
+# LyonsPaid, project
