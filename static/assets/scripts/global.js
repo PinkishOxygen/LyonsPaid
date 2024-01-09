@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   if(themeid == "b") {
       themeEle.href = "/assets/styles/themes/bannana.css";
   }
-  if(themeid == "gaybow";
+  if(themeid == "gaybow") {
       themeEle.href = "/assets/styles/theme/gradient/gaybow.css";
 }
   if(themeid == "bg") {
