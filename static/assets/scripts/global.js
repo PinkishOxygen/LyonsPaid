@@ -69,6 +69,9 @@ document.addEventListener('DOMContentLoaded', function (event) {
   if (themeid == 'cr') {
     themeEle.href = '/assets/styles/themes/cherryRed.css'
   }
+  if (themeid == 'gaybow') {
+    themeEle.href = '/assets/styles/theme/gradient/gaybow.css'
+  }
   if (themeid == 'd') {
     themeEle.href = '/assets/styles/themes/dark.css'
   }
