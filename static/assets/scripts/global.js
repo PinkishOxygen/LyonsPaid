@@ -61,34 +61,52 @@ document.addEventListener('DOMContentLoaded', function (event) {
   themeEle = document.createElement('link')
   themeEle.rel = 'stylesheet'
   if (themeid == 'b') {
-    themeEle.href = '/assets/styles/themes/bannana.css'
+    themeEle.href = '/assets/styles/theme/bannana.css'
   }
   if (themeid == 'bg') {
-    themeEle.href = '/assets/styles/themes/blue-green.css'
+    themeEle.href = '/assets/styles/theme/blue-green.css'
   }
   if (themeid == 'cr') {
-    themeEle.href = '/assets/styles/themes/cherryRed.css'
+    themeEle.href = '/assets/styles/theme/cherryRed.css'
   }
   if (themeid == 'gaybow') {
     themeEle.href = '/assets/styles/theme/gradient/gaybow.css'
   }
   if (themeid == 'd') {
-    themeEle.href = '/assets/styles/themes/dark.css'
+    themeEle.href = '/assets/styles/theme/dark.css'
   }
   if (themeid == 'fg') {
-    themeEle.href = '/assets/styles/themes/forestGreen.css'
+    themeEle.href = '/assets/styles/theme/forestGreen.css'
   }
   if (themeid == 'light') {
-    themeEle.href = '/assets/styles/theme/solid/light.css'
+    themeEle.href = '/assets/styles/them/solid/light.css'
   }
   if (themeid == 'm') {
-    themeEle.href = '/assets/styles/themes/milkshake.css'
+    themeEle.href = '/assets/styles/theme/milkshake.css'
   }
   if (themeid == 'nb') {
-    themeEle.href = '/assets/styles/themes/nightBlue.css'
+    themeEle.href = '/assets/styles/theme/nightBlue.css'
   }
   if (themeid == 'rb') {
-    themeEle.href = '/assets/styles/themes/red-black.css'
+    themeEle.href = '/assets/styles/theme/red-black.css'
+  }
+  if (themeid == 'solid-red') {
+    themeEle.href = '/assets/styles/theme/solid/red.css'
+  }
+  if (themeid == 'solid-orange') {
+    themeEle.href = '/assets/styles/theme/solid/orange.css'
+  }
+  if (themeid == 'solid-yellow') {
+    themeEle.href = '/assets/styles/theme/solid/yellow.css'
+  }
+  if (themeid == 'solid-green') {
+    themeEle.href = '/assets/styles/theme/solid/green.css'
+  }
+  if (themeid == 'solid-blue') {
+    themeEle.href = '/assets/styles/theme/solid/blue.css'
+  }
+  if (themeid == 'solid-purple') {
+    themeEle.href = '/assets/styles/theme/solid/purple.css'
   }
   if (themeid == 'midnight') {
     themeEle.href = '/assets/styles/theme/solid/midnight.css'
