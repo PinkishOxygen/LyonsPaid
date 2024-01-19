@@ -14,7 +14,8 @@ after that, go to ports and click on the first one. All set!
 
 # Update log:
 
-1/19/24 - Added more themes:
+**1/19/24** - Added more themes:
+(Delete & re-run codespace to apply changes)
 * Red
 * Orange
 * Yellow
