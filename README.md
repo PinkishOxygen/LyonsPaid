@@ -1,5 +1,7 @@
 # LyonsPaid - Lyons School unblocker.
 
+**You need a GitHub account to use**
+
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/LyonsPaid/LyonsPaid?quickstart=1)
 
 
