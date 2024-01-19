@@ -11,3 +11,13 @@ first time running:
 Go to Terminal. Enter "npm i && npm run start"
 It should run and a popup in bottom right should come up, click "make public."
 after that, go to ports and click on the first one. All set!
+
+# Update log:
+
+1/19/24 - Added more themes:
+* Red
+* Orange
+* Yellow
+* Green
+* Blue
+* Purple
