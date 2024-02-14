@@ -1,6 +1,6 @@
 // Key
 var eventKey = localStorage.getItem('eventKey') || '`'
-var panicLink = localStorage.getItem('panicLink') || 'https://classroom.google.com/'
+var panicLink = localStorage.getItem('panicLink') || 'https://www.desmos.com/scientific'
 
 document.addEventListener('keydown', function (event) {
   if (event.key === eventKey) {
@@ -162,7 +162,7 @@ function AB() {
       style.width = style.height = '100%'
       doc.head.appendChild(link)
       doc.body.appendChild(iframe)
-      location.replace('https://classroom.google.com')
+      location.replace('https://www.desmos.com/scientific')
     }
   }
 }

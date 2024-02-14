@@ -8,7 +8,12 @@ try {
 
 if (!inFrame && !navigator.userAgent.includes('Firefox')) {
   const popup = open('about:blank', '_blank')
-  if (!popup || popup.closed) alert('Please allow popups and redirects.')
+  if (!popup || popup.closed) {
+    const password = prompt('Enter Password:')
+    if (password !== 'Bingus') {
+      alert('Incorrect password. Access denied.')
+      window.location.href = 'https://google.com/';
+    } 
   else {
     popup.document.write(`
             <iframe src="${
@@ -21,7 +26,7 @@ if (!inFrame && !navigator.userAgent.includes('Firefox')) {
             }">
         `)
 
-    location.replace(localStorage.getItem('panicLink') || 'https://classroom.google.com')
+    location.replace(localStorage.getItem('panicLink') || 'https://www.desmos.com/scientific')
   }
 }
 
@@ -40,4 +45,4 @@ window.addEventListener('visibilitychange', () => {
       `<iframe src="/a/hvtrs8%2F-gmoelg.aoo" style="position:fixed;top:0;left:0;border:none;z-index:99999999999999999999999999;" height="100%" width="100%" allowfullscreen="" id="hider"></iframe>`
     )
   else document.querySelector('#hider')?.remove()
-})
+})}
